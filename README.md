@@ -420,6 +420,8 @@ Dieses Projekt steht unter einer Open-Source-Lizenz. Bei Verwendung in wissensch
 
 Entwickelt wurde dieses Programm mith der Beihilfe von Prof. Dr. Sabine Chabrillat und Dr. Jens Boy, beide aus dem Institut für Erdsystemwissenschaften (IESW) an der Leibniz Universität Hannover.
 
+Außerdem wurde für die Erstellung vieler Scriptpassagen der GitHub Copilot verwendet.
+
 ---
 
 **Version**: 1.0  
