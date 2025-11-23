@@ -323,6 +323,7 @@ SEED_PLSR_CV <- sample(1:1000, 1)
 **Lösung:**
 - Stellen Sie sicher, dass IDs im Shapefile und in Bodenmessungsdaten identisch sind
 - Prüfen Sie, ob Koordinaten im gültigen Bereich der EnMAP-Bilder liegen
+- -Prüfen Sie ob die Koordinatenreferenzsysteme Ihres Shapefiles mit denen der EnMAP Bilder übereinstimmt.
 
 ### Problem: "Zu wenig Speicher (Memory)"
 **Lösung:**
@@ -420,7 +421,7 @@ Dieses Projekt steht unter einer Open-Source-Lizenz. Bei Verwendung in wissensch
 
 ## 🙏 Danksagung
 
-Entwickelt wurde dieses Programm mith der Beihilfe von Prof. Dr. Sabine Chabrillat und Dr. Jens Boy, beide aus dem Institut für Erdsystemwissenschaften (IESW) an der Leibniz Universität Hannover.
+Entwickelt wurde dieses Programm mit der Beihilfe von Prof. Dr. Sabine Chabrillat und Dr. Jens Boy, beide aus dem Institut für Erdsystemwissenschaften (IESW) an der Leibniz Universität Hannover.
 
 Außerdem wurde für die Erstellung vieler Scriptpassagen der GitHub Copilot verwendet.
 
