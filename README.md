@@ -2,9 +2,9 @@
 
 ## Übersicht
 
-Dies ist eine Alpha Version!
+Bei diesem Projekt handelt es sich um eine Verallgemeinerung des Codes, welcher für meine Bachelorarbeit verwendet wurde.
 
-Dieses Repository enthält eine vollautomatisierte Pipeline zur Verarbeitung von EnMAP-Hyperspektraldaten und zur Vorhersage von Bodenparametern mittels Partial Least Squares Regression (PLSR). Die Pipeline ermöglicht es, aus Feldmessungen und EnMAP-Satellitenbildern räumliche .TIF Vorhersagekarten für jeden Pixel zu erstellen.
+Es enthält eine vollautomatisierte Pipeline zur Verarbeitung von EnMAP-Hyperspektraldaten und zur Vorhersage von Bodenparametern mittels Partial Least Squares Regression (PLSR). Die Pipeline ermöglicht es, aus Feldmessungen und EnMAP-Satellitenbildern räumliche .TIF Vorhersagekarten für jeden Pixel zu erstellen.
 
 ## Anwendungsbereiche
 
