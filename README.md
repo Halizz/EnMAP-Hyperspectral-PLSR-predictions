@@ -176,7 +176,7 @@ SOIL_DATA_DIR <- file.path(WORKING_DIR, "data/soil_measurements")
 # Normalisierungsmethode wählen
 NORMALIZATION_METHOD <- "snv"  # "minmax" oder "snv"
 
-# Seeds für Reproduzierbarkeit (beibehalten für Vergleichbarkeit)
+# Seeds für Reproduzierbarkeit
 SEED_CORRELATION_SPLIT <- 358
 SEED_PLSR_SPLIT <- 696
 SEED_PLSR_CV <- 263
