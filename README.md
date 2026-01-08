@@ -266,7 +266,7 @@ plot(prediction, main = "pH-Vorhersagekarte")
 - Balkendiagramme signifikanter Wellenlängen
 - Liniendiagramme des Korrelationsverlaufs
 
-## ⚙️ Erweiterte Konfiguration
+## Erweiterte Konfiguration
 
 ### Normalisierungsmethoden
 
