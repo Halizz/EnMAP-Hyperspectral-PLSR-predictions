@@ -421,7 +421,7 @@ Dieses Projekt steht unter einer Open-Source-Lizenz. Bei Verwendung in wissensch
 
 ## Danksagung
 
-Entwickelt wurde dieses Programm mit der Beihilfe von Prof. Dr. Sabine Chabrillat und Dr. Jens Boy, beide aus dem Institut für Erdsystemwissenschaften (IESW) an der Leibniz Universität Hannover.
+Entwickelt wurde dieses Projekt mit der Beihilfe von Prof. Dr. Sabine Chabrillat und Dr. Jens Boy, beide aus dem Institut für Erdsystemwissenschaften (IESW) an der Leibniz Universität Hannover.
 
 Außerdem wurde für die Erstellung vieler Scriptpassagen der GitHub Copilot verwendet.
 
