@@ -145,7 +145,7 @@ install.packages(c("terra", "raster", "sf", "dplyr", "readr", "readxl",
 - Erforderliche Attribute:
   - `ID`: Muss mit IDs in Bodenmessungsdaten übereinstimmen
   - Geometrie: Punktgeometrie (Point)
-- Koordinatensystem: Beliebig (wird automatisch auf EPSG:32719 projiziert)
+- Koordinatensystem: Achten Sie darauf, dass das Koordinatensystem Ihres Shapefiles mit dem der Satellitenbilder übereinstimmen
 - Speichern Sie das Shapefile im `data/`-Ordner
 
 **Beispiel-Datenstruktur:**
