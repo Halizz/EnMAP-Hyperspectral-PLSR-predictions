@@ -43,7 +43,7 @@ Die Pipeline implementiert einen wissenschaftlich fundierten Workflow mit folgen
 
 4. **Räumliche Vorhersage**:
    - Pixelweise Anwendung der trainierten Modelle
-   - Erstellung georeferenzierter Vorhersagekarten
+   - Erstellung der Vorhersagekarten
 
 ### Reproduzierbarkeit
 Alle Zufallsprozesse verwenden festgelegte Seeds:
@@ -145,7 +145,7 @@ install.packages(c("terra", "raster", "sf", "dplyr", "readr", "readxl",
 - Erforderliche Attribute:
   - `ID`: Muss mit IDs in Bodenmessungsdaten übereinstimmen
   - Geometrie: Punktgeometrie (Point)
-- Koordinatensystem: Achten Sie darauf, dass das Koordinatensystem Ihres Shapefiles mit dem der Satellitenbilder übereinstimmen
+- Koordinatensystem: Achten Sie darauf, dass das Koordinatensystem Ihres Shapefiles mit dem der Satellitenbilder übereinstimmt
 - Speichern Sie das Shapefile im `data/`-Ordner
 
 **Beispiel-Datenstruktur:**
@@ -429,4 +429,4 @@ Außerdem wurde für die Erstellung vieler Scriptpassagen der GitHub Copilot ver
 
 **Version**: 1.0  
 **Letztes Update**: November 2025  
-**Autor**: EnMAP PLSR Pipeline Project
+**Autor**: Leo Hampe
