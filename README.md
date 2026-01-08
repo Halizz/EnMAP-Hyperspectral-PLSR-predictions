@@ -20,7 +20,7 @@ Es enthält eine vollautomatisierte Pipeline zur Verarbeitung von EnMAP-Hyperspe
 - Sie möchten räumliche Vorhersagen für das gesamte Untersuchungsgebiet erstellen
 - Sie benötigen statistisch validierte Korrelationen zwischen Spektraldaten und Bodenparametern
 
-## 🔬 Methodische Grundlagen
+## Methodische Grundlagen
 
 ### Pipeline-Architektur
 Die Pipeline implementiert einen wissenschaftlich fundierten Workflow mit folgenden Kernelementen:
