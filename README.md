@@ -1,12 +1,12 @@
 # EnMAP Hyperspektral-PLSR Pipeline
 
-## 📋 Übersicht
+## Übersicht
 
 Dies ist eine Alpha Version!
 
 Dieses Repository enthält eine vollautomatisierte Pipeline zur Verarbeitung von EnMAP-Hyperspektraldaten und zur Vorhersage von Bodenparametern mittels Partial Least Squares Regression (PLSR). Die Pipeline ermöglicht es, aus Feldmessungen und EnMAP-Satellitenbildern räumliche .TIF Vorhersagekarten für jeden Pixel zu erstellen.
 
-## 🎯 Anwendungsbereiche
+## Anwendungsbereiche
 
 ### Primäre Anwendungen
 - **Bodenparameter-Mapping**: Vorhersage von organischem Kohlenstoff, Stickstoff, Basensättigung und anderen Bodeneigenschaften !!!Achtung: Logarithmische Werte, wie der pH-Wert sollten reskaliert werden, bevor sie ins script gefüttert werden!!!
@@ -51,7 +51,7 @@ Alle Zufallsprozesse verwenden festgelegte Seeds:
 - `SEED_PLSR_SPLIT = 696` (RSS 70:30 für PLSR)
 - `SEED_PLSR_CV = 263` (5-fold Kreuzvalidierung)
 
-## 📁 Projektstruktur
+## Projektstruktur
 
 ```
 Enmap_PLSR_prediction/
@@ -80,7 +80,7 @@ Enmap_PLSR_prediction/
     └── prediction_maps/       # Vorhersagekarten (.tif)
 ```
 
-## 🚀 Installation & Systemanforderungen
+## Installation & Systemanforderungen
 
 ### Systemanforderungen
 - **R Version**: ≥ 4.0.0
@@ -123,7 +123,7 @@ install.packages(c("terra", "raster", "sf", "dplyr", "readr", "readxl",
                    "viridis", "vegan", "matrixStats", "parallel"))
 ```
 
-## 📖 Gebrauchsanweisung
+## Gebrauchsanweisung
 
 ### Schritt 1: Daten vorbereiten
 
@@ -162,7 +162,7 @@ Bodenmessungsdatei (`soil_data.xlsx`):
 
 ```r
 # ══════════════════════════════════════════════════════════════════════════════
-# 📋 KONFIGURATION - HIER PFADE ANPASSEN
+# KONFIGURATION - HIER PFADE ANPASSEN
 # ══════════════════════════════════════════════════════════════════════════════
 
 # Hauptverzeichnis
@@ -312,7 +312,7 @@ SEED_PLSR_SPLIT <- sample(1:1000, 1)
 SEED_PLSR_CV <- sample(1:1000, 1)
 ```
 
-## 🔧 Fehlerbehebung
+## Fehlerbehebung
 
 ### Problem: "Keine EnMAP-Archive gefunden"
 **Lösung:**
@@ -348,7 +348,7 @@ options(mc.cores = 2)  # Weniger CPU-Kerne verwenden
 - Ungeeigneter Bodenparameter für spektrale Vorhersage
 - Fehler in Datenaufbereitung
 
-## 📊 Datenqualitätskriterien
+## Datenqualitätskriterien
 
 ### Minimale Anforderungen
 - **Probenpunkte**: ≥ 30 (besser: ≥ 50)
@@ -362,7 +362,7 @@ options(mc.cores = 2)  # Weniger CPU-Kerne verwenden
 - **Mehrfachmessungen**: 3 Wiederholungen pro Probenpunkt
 - **Qualitätskontrolle**: Laboranalysen nach ISO-Standards
 
-## 📈 Typische Verarbeitungszeiten
+## Typische Verarbeitungszeiten
 
 | Schritt | Kleine Datensätze* | Große Datensätze** |
 |---------|-------------------|-------------------|
@@ -382,7 +382,7 @@ options(mc.cores = 2)  # Weniger CPU-Kerne verwenden
 *Kleine Datensätze: 1-2 EnMAP-Szenen, 30-50 Probenpunkte  
 **Große Datensätze: 5-10 EnMAP-Szenen, 100+ Probenpunkte
 
-## 🎓 Wissenschaftliche Grundlagen
+## Wissenschaftliche Grundlagen
 
 ### Zitierbare Methoden
 Dieses Script implementiert etablierte Methoden aus der Fernerkundung und Chemometrie:
@@ -401,7 +401,7 @@ Die Pipeline verwendet wissenschaftlich etablierte Validierungsstrategien:
 - **Kreuzvalidierung**: 5-fach für Parameteroptimierung
 - **Random Sample Split**: Vermeidung von Bias durch randomisierte Aufteilung
 
-## 📞 Support & Beitrag
+## Support & Beitrag
 
 ### Bei Problemen
 1. Prüfen Sie die Fehlerbehebung in dieser Anleitung
@@ -415,11 +415,11 @@ Die Pipeline verwendet wissenschaftlich etablierte Validierungsstrategien:
 - Implementierung der Verbesserung
 - Pull Request mit Beschreibung
 
-## 📄 Lizenz
+## Lizenz
 
 Dieses Projekt steht unter einer Open-Source-Lizenz. Bei Verwendung in wissenschaftlichen Publikationen bitten wir um entsprechende Zitation.
 
-## 🙏 Danksagung
+## Danksagung
 
 Entwickelt wurde dieses Programm mit der Beihilfe von Prof. Dr. Sabine Chabrillat und Dr. Jens Boy, beide aus dem Institut für Erdsystemwissenschaften (IESW) an der Leibniz Universität Hannover.
 
